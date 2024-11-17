@@ -23,8 +23,8 @@ else:
     print("TensorFlow ไม่พบ GPU, กำลังใช้ CPU")
 
 # ข้อมูลสำหรับ training และ validation
-train_dir = r'D:\MobileNetV2_Hand_Writing\TrainingData'
-val_dir = r'D:\MobileNetV2_Hand_Writing\ValidationData'
+# train_dir = Path for training data
+# val_dir = Path for validation data
 
 # การเตรียมข้อมูลโดยใช้ ImageDataGenerator
 train_datagen = ImageDataGenerator(
